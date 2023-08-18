@@ -1,0 +1,154 @@
+body{
+    margin: 0%;
+    background-image: linear-gradient( to bottom right, rgb(50, 128, 245), rgb(158, 24, 170));
+    background-repeat: no-repeat;
+}
+.letra{
+    font-size: 90px;
+    font-family: 'Times New Roman', Times, serif;
+    left: 35%;
+}
+
+.A{
+    background-color: black;
+    width: 1901px;
+    height: 87px;
+    margin-top: 53px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+display: flex;
+justify-content: center;
+}
+.z{
+  
+ margin-top: 15px;
+
+}
+.texto{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+}
+.texto p{
+    width: 1085px;
+    font-size: 40px;
+    margin-left: 35px;
+}
+.texto img{
+    margin-right: 34px;
+    width: 620px;
+    height: 592px;
+    margin-top: 0px;
+}
+
+
+
+/**/
+
+/* .A2{
+    background-color: black;
+    width: 1920px;
+    height: 87px;
+    margin-top: 53px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+display: flex;
+justify-content: center;
+}
+.z2{
+  
+ margin-top: 15px;
+
+}
+.texto2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+}
+.texto2 p{
+    width: 1085px;
+    font-size: 40px;
+    margin-left: -10px;
+}
+.texto2 img{
+    margin-left: 34px;
+    width: 620px;
+    height: 592px;
+    margin-top: 0px;
+} */
+
+
+.A2{
+    background-color: black;
+    width: 1901px;
+    height: 87px;
+    margin-top: 53px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+display: flex;
+justify-content: center;
+}
+.z2{
+  
+ margin-top: 15px;
+
+}
+.texto2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+}
+.texto2 p{
+    width: 1085px;
+    font-size: 40px;
+    margin-left: -10px;
+}
+.texto2 img{
+    margin-left: 34px;
+    width: 620px;
+    height: 592px;
+    margin-top: 0px;
+}
+.fotos img{
+        margin-left:228px;
+        width: 620px;
+        height: 592px;
+        margin-top: 73px;
+    }
+
+    
+.fotos{
+    display: flex;
+}
+
+
+
+img{
+        display: flex;
+}
+.gallery-image {
+    margin-right: 10px;
+}
+.ampliada-container {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	backdrop-filter: blur(5px);
+	z-index: 9999;
+}
+
+.ampliada-image {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	max-width: 90%;
+	max-height: 90%;
+}
